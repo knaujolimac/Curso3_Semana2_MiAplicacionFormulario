@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="app_name">MiFormulario</string>
+    <string name="label_nombre">Nombre Completo</string>
+    <string name="label_fecha_nacimiento">Fecha Nacimiento</string>
+    <string name="label_telefono">Teléfono</string>
+    <string name="label_email">Email</string>
+    <string name="label_descripcion">Descripción Contacto</string>
+    <string name="label_btn_siguiente">Siguiente</string>
+    <string name="titulo_confirmar">Confirmar Datos</string>
+
+    <string name="label_detalle_fecha_nac">Fecha Nacimiento:</string>
+    <string name="label_detalle_telefono">Teléfono:</string>
+    <string name="label_detalle_email">Email:</string>
+    <string name="label_detalle_descripcion">Descripción:</string>
+    <string name="label_btn_editar">Editar Datos</string>
+
+
+    <string name="nombre_temporal">Juan Camilo Chaparro</string>
+    <string name="fecha_nacimiento_temporal">30/04/1987</string>
+    <string name="telefono_temporal">3005669882</string>
+    <string name="email_temporal">juan@gmail.com</string>
+    <string name="descripcion_temporal">Yo conozco a Camilo hace 10 años</string>
+
+    <string name="param_nombre">NOMBRE</string>
+    <string name="param_telefono">TELEFONO</string>
+    <string name="param_fechaNa">FECHANACIMIENTO</string>
+    <string name="param_email">EMAIL</string>
+    <string name="param_descripcion">DESCRIPCION</string>
+</resources>
+

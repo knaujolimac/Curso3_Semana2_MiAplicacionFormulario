@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.knaujolimac.miformulario.ConfirmarDatosContacto">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/tvTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_confirmar"
+            android:textStyle="bold"
+            android:textSize="@dimen/titulo"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/top_principal"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvNombreContacto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre_temporal"
+            android:textSize="@dimen/nombre_contacto"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/top_secundario"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvFechaNacimiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_detalle_fecha_nac"
+            android:textStyle="bold" />
+
+        <TextView
+            android:paddingLeft="@dimen/left"
+            android:id="@+id/tvFechaNaContacto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fecha_nacimiento_temporal" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="@dimen/top_secundario"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_detalle_telefono"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:paddingLeft="@dimen/left"
+            android:id="@+id/tvTelefonoContacto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/telefono_temporal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/top_secundario"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_detalle_email"
+            android:textStyle="bold" />
+
+        <TextView
+            android:paddingLeft="@dimen/left"
+            android:id="@+id/tvEmailContacto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email_temporal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/top_secundario"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_detalle_descripcion"
+            android:textStyle="bold" />
+
+        <TextView
+            android:paddingLeft="@dimen/left"
+            android:id="@+id/tvDescContacto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descripcion_temporal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_boton">
+
+        <Button
+            android:id="@+id/btnEditarDatos"
+            android:layout_width="@dimen/width_boton"
+            android:layout_height="wrap_content"
+            android:text="@string/label_btn_editar"
+            android:textStyle="bold"
+            android:theme="@style/MiRaisedButton"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
